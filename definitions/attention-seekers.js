@@ -1,27 +1,63 @@
+// export const bounce = {
+//   0: {
+//     translateY: 0,
+//   },
+//   0.2: {
+//     translateY: 0,
+//   },
+//   0.4: {
+//     translateY: -30,
+//   },
+//   0.43: {
+//     translateY: -30,
+//   },
+//   0.53: {
+//     translateY: 0,
+//   },
+//   0.7: {
+//     translateY: -15,
+//   },
+//   0.8: {
+//     translateY: 0,
+//   },
+//   0.9: {
+//     translateY: -4,
+//   },
+//   1: {
+//     translateY: 0,
+//   },
+// };
+
 export const bounce = {
   0: {
     translateY: 0,
   },
-  0.2: {
-    translateY: 0,
+  0.1: {
+    translateY: -1,
+  },
+  0.1: {
+    translateY: -2,
+  },
+  0.3: {
+    translateY: -1,
   },
   0.4: {
-    translateY: -30,
+    translateY: 0,
   },
-  0.43: {
-    translateY: -30,
+  0.5: {
+    translateY: 1,
   },
-  0.53: {
+  0.6: {
     translateY: 0,
   },
   0.7: {
-    translateY: -15,
+    translateY: -1,
   },
   0.8: {
-    translateY: 0,
+    translateY: -2,
   },
   0.9: {
-    translateY: -4,
+    translateY: -1,
   },
   1: {
     translateY: 0,
@@ -94,7 +130,7 @@ export const pulse = {
     scale: 1,
   },
   0.5: {
-    scale: 1.05,
+    scale: 1.015,
   },
   1: {
     scale: 1,
@@ -155,26 +191,53 @@ export const shake = {
   },
 };
 
+// export const swing = {
+//   0: {
+//     rotate: '0deg',
+//   },
+//   0.2: {
+//     rotate: '15deg',
+//   },
+//   0.4: {
+//     rotate: '-10deg',
+//   },
+//   0.6: {
+//     rotate: '5deg',
+//   },
+//   0.8: {
+//     rotate: '-5deg',
+//   },
+//   1: {
+//     rotate: '0deg',
+//   },
+// };
+
 export const swing = {
   0: {
     rotate: '0deg',
+    scale: 1
   },
   0.2: {
-    rotate: '15deg',
+    rotate: '2deg',
+    scale: 1.05
   },
   0.4: {
-    rotate: '-10deg',
+    rotate: '-2deg',
+    scale: 1.07
   },
   0.6: {
-    rotate: '5deg',
+    rotate: '1deg',
+    scale: 1.05
   },
   0.8: {
-    rotate: '-5deg',
+    rotate: '-2deg',
+    scale: 1.02
   },
   1: {
     rotate: '0deg',
+    scale: 1
   },
-};
+}
 
 export const rubberBand = {
   0: {
