@@ -12,7 +12,7 @@ function makeSlideOutTranslation(translationType, fromValue) {
   };
 }
 
-export const slideOutDown = makeSlideOutTranslation('translateY', 100);
+export const slideOutDown = makeSlideOutTranslation('translateY', Dimensions.get("window").height * 1.3);
 
 export const slideOutUp = makeSlideOutTranslation('translateY', -Dimensions.get("window").height * 1.3);
 
