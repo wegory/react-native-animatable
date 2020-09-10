@@ -1,3 +1,6 @@
+import { Dimensions } from "react-native";
+
+
 function makeSlideOutTranslation(translationType, fromValue) {
   return {
     from: {
@@ -11,7 +14,7 @@ function makeSlideOutTranslation(translationType, fromValue) {
 
 export const slideOutDown = makeSlideOutTranslation('translateY', 100);
 
-export const slideOutUp = makeSlideOutTranslation('translateY', -100);
+export const slideOutUp = makeSlideOutTranslation('translateY', -Dimensions.get("window").height * 1.3);
 
 export const slideOutLeft = makeSlideOutTranslation('translateX', -100);
 
